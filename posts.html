@@ -9,7 +9,6 @@ back: index.html
         {% for post in site.posts %}
         <li class="table-view-cell navigate-right">
             <a href="{{ post.url }}">{{ post.title }}</a>
-            {{post.date}}
         </li>
         {% endfor %}
     </ul>
