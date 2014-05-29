@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+{% include style media="all" href="/public/libs/bootstrap/css/bootstrap.min.css" %}
+{% include style media="all" href="/public/libs/ratchet/css/ratchet.min.css" %}
+
+
+{% include script src="/public/libs/jquery/jquery-2.1.1.min.js" %}
+{% include script src="/public/libs/bootstrap/js/bootstrap.min.js" %}
+{% include script src="/public/libs/ratchet/js/ratchet.min.js" %}
+{% include script src="/public/scripts/main.js" %}
+
+
+{% include style media="all" href="/public/styles/main.css" %}
+
+<title>{% if page.title %}{{ page.title }}{% else %}BeatMix{% endif %} | BeatMix</title>

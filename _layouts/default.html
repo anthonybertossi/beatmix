@@ -1,0 +1,28 @@
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <header class="bar bar-nav">
+        {% if page.back %}
+            <a class="icon icon-left-nav pull-left" href="{{page.back}}" data-transition="slide-out"></a>
+        {% endif %}
+        <h1 class="title">{% if page.title %}{{ page.title }}{% else %}BeatMix{% endif %}</h1>
+        <a href="#searchModal" class="pull-right"><i class="icon icon-search"></i></a>
+        <div id="searchModal" class="modal">
+          <header class="bar bar-nav">
+            <a class="icon icon-close pull-right" href="#searchModal"></a>
+            <h1 class="title">Modal</h1>
+          </header>
+
+          <div class="content">
+            <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+          </div>
+        </div>
+    </header>
+    <div class="content {% if page.padded %}content-padded {% endif %}">
+        {{ content }}
+    </div>
+    {% include navbar.html page=page %}
+</body>
+</html>
