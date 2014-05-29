@@ -1,5 +1,6 @@
+<!DOCTYPE html>
 <html>
-<head>
+<head>  
     {% include head.html %}
 </head>
 <body>
@@ -20,7 +21,7 @@
           </div>
         </div>
     </header>
-    <div class="content {% if page.padded %}content-padded {% endif %}">
+    <div class="content">
         {{ content }}
     </div>
     {% include navbar.html page=page %}

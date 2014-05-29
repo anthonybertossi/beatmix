@@ -1,1 +1,1 @@
-<link rel="stylesheet" type="text/css" media="{{ include.media }}" href="{{ include.href }}">
+<link rel="stylesheet" type="text/css" media="{{site.baseurl}}{{ include.media }}" href="{{ include.href }}">

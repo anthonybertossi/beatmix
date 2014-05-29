@@ -1,21 +1,21 @@
 <nav class="bar bar-tab">
-    <a class="tab-item {% if page.slug == "home" %}active{% endif %}" href="index.html" data-transition="slide-out">
+    <a class="tab-item {% if page.slug == "home" %}active{% endif %}" href="{{site.baseurl}}index.html" data-transition="slide-out">
         <span class="icon icon-home"></span>
         <span class="tab-label">Home</span>
     </a>
-    <a class="tab-item {% if page.slug == "profile" %}active{% endif %}" href="profile.html" data-transition="slide-in">
+    <a class="tab-item {% if page.slug == "profile" %}active{% endif %}" href="{{site.baseurl}}profile.html" data-transition="slide-in">
         <span class="icon icon-person"></span>
         <span class="tab-label">Profile</span>
     </a>
-    <a class="tab-item {% if page.slug == "favorites" %}active{% endif %}" href="favorites.html" data-transition="slide-in">
+    <a class="tab-item {% if page.slug == "favorites" %}active{% endif %}" href="{{site.baseurl}}favorites.html" data-transition="slide-in">
         <span class="icon icon-star-filled"></span>
         <span class="tab-label">Favorites</span>
     </a>
-    <a class="tab-item {% if page.slug == "search" %}active{% endif %}" href="search.html" data-transition="slide-in">
+    <a class="tab-item {% if page.slug == "search" %}active{% endif %}" href="{{site.baseurl}}search.html" data-transition="slide-in">
         <span class="icon icon-search"></span>
         <span class="tab-label">Search</span>
     </a>
-    <a class="tab-item {% if page.slug == "settings" %}active{% endif %}" href="settings.html" data-transition="slide-in">
+    <a class="tab-item {% if page.slug == "settings" %}active{% endif %}" href="{{site.baseurl}}settings.html" data-transition="slide-in">
         <span class="icon icon-gear"></span>
         <span class="tab-label">Settings</span>
     </a>
