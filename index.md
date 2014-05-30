@@ -44,16 +44,16 @@ slug: home
 </div>
 <ul class="table-view">
     <li class="table-view-cell">
-        <a href="{{site.baseurl}}favorites.html" class="navigate-right" data-transition="slide-in">Favoris</a>
+        <a href="{{site.baseurl}}/favorites.html" class="navigate-right" data-transition="slide-in">Favoris</a>
     </li>
     <li class="table-view-cell">
-        <a href="{{site.baseurl}}profile.html" class="navigate-right" data-transition="slide-in">Profil</a>
+        <a href="{{site.baseurl}}/profile.html" class="navigate-right" data-transition="slide-in">Profil</a>
     </li>
     <li class="table-view-cell">
-        <a href="{{site.baseurl}}search.html" class="navigate-right" data-transition="slide-in">Recherche</a>
+        <a href="{{site.baseurl}}/search.html" class="navigate-right" data-transition="slide-in">Recherche</a>
     </li>
     <li class="table-view-cell">
-        <a href="{{site.baseurl}}settings.html" class="navigate-right" data-transition="slide-in">Paramètres</a>
+        <a href="{{site.baseurl}}/settings.html" class="navigate-right" data-transition="slide-in">Paramètres</a>
     </li>
 </ul>
 <ul class="table-view">
