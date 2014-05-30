@@ -1,7 +1,7 @@
 baseurl: /beatmix
 # markdown: KramdownCustom
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:title.html
 collections: 
     projects:
         output: false
