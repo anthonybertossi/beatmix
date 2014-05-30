@@ -1,10 +1,13 @@
 baseurl: /beatmix/
-markdown: KramdownCustom
+# markdown: KramdownCustom
+markdown: kramdown
 permalink: /:categories/:title
 collections: 
     projects:
         output: false
-gems: 
-    - kramdown
-    - "github/markdown"
-    #- "emoji_for_jekyll"
+gems:
+# - kramdown
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
